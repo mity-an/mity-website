@@ -1,0 +1,138 @@
+body
+{
+    background-color: rgb(220, 223, 245);
+    color: rgb(48, 47, 107);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+header
+{
+    background-color: rgb(0, 23, 100);
+    color: azure;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 100;
+}
+.main
+{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-size: 120%;
+}
+.logo
+{
+    font-size: 180%;
+    font-weight: bold;
+
+}
+.links
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    font-size: 125%;
+}
+.links a
+{
+    color: azure;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+.links a:hover
+{
+    color: rgb(196, 200, 255);
+}
+.cover
+{
+    background: url(night-sky-5120x3200-16225.png) center/cover no-repeat;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    margin-top: 134px;
+} 
+.cover h1{
+    font-size: 300%;
+    animation: FadeIn 5s;
+
+}
+@keyframes FadeIn
+{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.cover h3
+{
+    font-size: 150%;
+}
+.btn
+{
+    display: inline-block;
+    background: rgb(0, 2, 100);
+    color: azure;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 1s;
+    text-decoration: none;
+}
+.btn:hover
+{
+    background: rgb(45, 64, 173);
+    
+}
+.mainsection
+{
+    padding: 30px;
+    text-align: center;
+}
+.teo
+{
+    text-align: left;
+    gap: 20px;
+    box-shadow: -2px 6px 50px rgba(2, 0, 112, 0.56), 4px 4px 50px rgba(134, 149, 223, 0.23), 4px 4px 8px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+footer
+{
+    background-color: rgb(0, 7, 100);
+    color: azure;
+    text-align: center;
+    width: 100%;
+    margin-bottom:0;
+    height: 30px;
+}
+
+.info
+{
+    padding: 5px;
+    text-align: center;
+}
+.info h4
+{
+    font-size: 120%;
+    color: rgb(0, 2, 100);
+    margin: 0 0 3px;
+}
+.info p{
+    margin: 0;
+    font-size: 100%;
+    color: rgb(35, 37, 142);
+}
+.li
+{
+    text-decoration: none;
+    list-style: none;
+}
+td
+{
+    text-align: center;
+    border-color: rgba(0, 6, 56, 0.74);
+}
